@@ -51,7 +51,7 @@ Update the `.env` file located in the `client` directory with the `MongoDB URI` 
 3. Update the `MONGODB_URI` with the necessary credentials.
 
    ```.env
-   MONGODB_URI='mongodb+srv://ttran375:t8Uj2DGuCGIRtkqQ@cluster0.r9sqyo9.mongodb.net/Skeleton?retryWrites=true&w=majority&appName=Cluster0/users'
+   MONGODB_URI=mongodb+srv://your_user:your_password@your_cluster.mongodb.net/YourDatabase?retryWrites=true&w=majority&appName=YourApp/yourcollection
    ```
 
 ### Start the Server
