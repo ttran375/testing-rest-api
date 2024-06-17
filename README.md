@@ -1,4 +1,4 @@
-# Rest API
+# Testing REST API
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/testing-rest-api)
 
