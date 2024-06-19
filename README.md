@@ -25,7 +25,7 @@ Install the necessary dependencies for both the server and client parts of the a
 
 * **For the server:**
 
-  Open the integrated terminal and run:
+  Open a integrated terminal and run `yarn`:
 
   ```sh
   yarn
@@ -33,7 +33,7 @@ Install the necessary dependencies for both the server and client parts of the a
 
 * **For the client:**
 
-  Navigate to the client directory and run:
+  Open a new integrated terminal, navigate to the client directory and run `yarn`:
 
   ```sh
   cd client
@@ -62,8 +62,6 @@ After setting up the environment variables, start the server and client concurre
   yarn dev
   ```
 
-The **MERN** stack application should now be running. The client application could be accessed  in the browser with the workspace forwarded port.
-
 ## Test the REST API
 
 ### Testing the API with Thunder Client
@@ -76,10 +74,7 @@ The **MERN** stack application should now be running. The client application cou
    * Enter the API endpoint URL in the URL field: `http://localhost:3000/api/users`.
    * Select the HTTP method `POST` from the dropdown next to the URL field.
 
-3. **Configure Request Headers (if needed):**
-   * If the API requires headers (like `Content-Type: application/json` or authentication tokens), click on the "Headers" tab below the URL field and add them accordingly.
-
-4. **Set Up Request Body:**
+3. **Set Up Request Body:**
    * Click on the "Body" tab, choose the content type, and enter the JSON data. Example:
 
     ```json
